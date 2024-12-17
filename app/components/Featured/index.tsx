@@ -119,7 +119,7 @@ export default class MultipleItems extends Component {
                             <div key={i}>
 
                                 <div className='bg-transparent m-3 pb-12 my-10 rounded-3xl h-full'>
-                                    <Image  src={items.imgSrc} alt="gaby" width={636} height={600} className="rounded-2xl h-[650px]" />
+                                    <Image  src={items.imgSrc} alt="gaby" width={636} height={600} className="rounded-2xl w-[500px] h-[450px]" />
                                     <div className="w-345">
                                         <h4 className='sm:text-5xl font-bold sm:pt-6 text-center sm:text-start mt-10 text-white'>{items.heading}</h4>
                                     </div>

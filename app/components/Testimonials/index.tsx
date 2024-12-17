@@ -15,47 +15,44 @@ interface DataType {
 
 const postData: DataType[] = [
     {
-        name: "Robert Fox",
-        profession: 'CEO, Parkview Int.Ltd',
-        comment: '"Digital Link Technology exceeded our expectations with their CCTV installation services. The team was professional, efficient, and delivered a high-quality security solution tailored to our needs. We feel much safer knowing we have their systems in place. Highly recommended!',
+        name: "Mohammed Al-Faisal",
+        profession: 'Retail Manager, Parkview Int.Ltd',
+        comment: "Hikvision-Saudi has been a game changer for our retail business. Their customized surveillance solutions have significantly improved our store's security. The installation was seamless, and their ongoing support gives us peace of mind. Highly recommended!",
         imgSrc: '/images/testimonial/user1.svg',
     },
     {
-        name: "Leslie Alexander",
-        profession: 'CEO, Parkview Int.Ltd',
-        comment: "The digital signage solutions provided by Digital Link Technology transformed our store's customer experience. The installation was seamless, and their support team was always available for any assistance. It's been a game-changer for us!",
+        name: "Sara Al-Salem",
+        profession: 'IT Director',
+        comment: "As a company, we rely on Hikvision-Saudi for advanced security technology across our multiple offices. Their solutions are highly efficient, and the customer service is exceptional. The installation process was quick, and their support team is always responsive.",
         imgSrc: '/images/testimonial/user2.svg',
     },
     {
-        name: "Cody Fisher",
+        name: "Ahmed Al-Rashid",
         profession: 'CEO, Parkview Int.Ltd',
-        comment: "From the initial consultation to the final setup, Digital Link Technology handled everything flawlessly. The AV systems they installed in our corporate offices have greatly improved our meeting and communication experience. Their solutions are both innovative and reliable."
-
-,
+        comment: "From the initial consultation to the final setup, Digital Link Technology handled everything flawlessly. The AV systems they installed in our corporate offices have greatly improved our meeting and communication experience. Their solutions are both innovative and reliable.",
         imgSrc: '/images/testimonial/user3.svg',
     },
     {
-        name: "Robert Fox",
-        profession: 'CEO, Parkview Int.Ltd',
-        comment: "We partnered with Digital Link Technology for our structured cabling and access control systems. Their team provided excellent service from start to finish, delivering on time and within budget. Their professionalism and expertise truly set them apart.",
+        name: "Faisal Al-Muhanna",
+        profession: 'Facility Manager',
+        comment: "Hikvision-Saudi provided us with a tailored security solution that perfectly matched our needs. Their team was professional and knowledgeable, ensuring the entire system was up and running smoothly. We’ve seen a marked improvement in safety and security across our facilities.",
         imgSrc: '/images/testimonial/user1.svg',
     },
     {
-        name: "Leslie Alexander",
-        profession: 'CEO, Parkview Int.Ltd',
-        comment: "We’ve been using Digital Link Technology for our ELV system needs for years, and they have never let us down. Their team is knowledgeable, responsive, and always provides top-notch service, whether it's installation or after-sales support. A trusted partner in every sense!",
+        name: "Laila Al-Saud",
+        profession: 'Hotel Manager',
+        comment: "We chose Hikvision-Saudi for our hotel's security system, and we couldn’t be happier. The quality of the cameras and monitoring technology is excellent, and their customer service team is always available to address any concerns. Our guests’ safety is now more assured than ever",
         imgSrc: '/images/testimonial/user2.svg',
     },
     {
-        name: "Cody Fisher",
-        profession: 'CEO, Parkview Int.Ltd',
-        comment: "We needed a comprehensive surveillance solution for our residential towers, and Digital Link Technology delivered beyond our expectations. Their expertise and attention to detail ensured a smooth and timely installation. The after-sales support has been excellent to",
+        name: "Yousef Al-Qassim",
+        profession: 'Business Owner',
+        comment: "Hikvision-Saudi's security solutions have greatly improved our business operations with reliable surveillance and monitoring. Their attention to detail and prompt support made the installation process smooth, and we’ve experienced enhanced security and peace of mind since implementing their system.",
         imgSrc: '/images/testimonial/user3.svg',
     },
 ]
 
 // CAROUSEL SETTINGS
-
 
 export default class MultipleItems extends Component {
 
@@ -64,7 +61,6 @@ export default class MultipleItems extends Component {
             dots: false,
             infinite: true,
             slidesToShow: 3,
-            // centerMode: true,
             slidesToScroll: 2,
             arrows: false,
             autoplay: false,
@@ -102,53 +98,51 @@ export default class MultipleItems extends Component {
             ]
         };
 
-
         return (
             <div className="bg-testimonial pt-40 pb-32 lg:py-32" id="testimonial-section">
                 <div className='mx-auto max-w-7xl sm:py-4 lg:px-8 '>
 
-                <div className="text-center">
-    <h3 className="text-4xl sm:text-6xl font-bold my-3
-                   bg-gradient-to-r from-[#9A78F6] to-[#B964F2]
-                   text-transparent bg-clip-text
-                   bg-[length:200%_auto]
-                   animate-flowingGradient
-                   hover:scale-105 transition-transform duration-300
-                   cursor-pointer">
-        See what others are saying.
-    </h3>
-    <h3 className="text-4xl sm:text-6xl font-bold opacity-50 lg:mr-48 my-4
-                   bg-gradient-to-r from-[#9A78F6] to-[#B964F2]
-                   text-transparent bg-clip-text
-                   bg-[length:200%_auto]
-                   animate-flowingGradient">
-        See what others are saying.
-    </h3>
-    <h3 className="text-4xl sm:text-6xl font-bold opacity-25 lg:-mr-32 my-4
-                   bg-gradient-to-r from-[#9A78F6] to-[#B964F2]
-                   text-transparent bg-clip-text
-                   bg-[length:200%_auto]
-                   animate-flowingGradient">
-        See what others are saying.
-    </h3>
+                    <div className="text-center">
+                        <h3 className="text-4xl sm:text-6xl font-bold my-3
+                           bg-gradient-to-r from-[#9A78F6] to-[#B964F2]
+                           text-transparent bg-clip-text
+                           bg-[length:200%_auto]
+                           animate-flowingGradient
+                           hover:scale-105 transition-transform duration-300
+                           cursor-pointer">
+                            See what others are saying.
+                        </h3>
+                        <h3 className="text-4xl sm:text-6xl font-bold opacity-50 lg:mr-48 my-4
+                           bg-gradient-to-r from-[#9A78F6] to-[#B964F2]
+                           text-transparent bg-clip-text
+                           bg-[length:200%_auto]
+                           animate-flowingGradient">
+                            See what others are saying.
+                        </h3>
+                        <h3 className="text-4xl sm:text-6xl font-bold opacity-25 lg:-mr-32 my-4
+                           bg-gradient-to-r from-[#9A78F6] to-[#B964F2]
+                           text-transparent bg-clip-text
+                           bg-[length:200%_auto]
+                           animate-flowingGradient">
+                            See what others are saying.
+                        </h3>
 
-    <style jsx>{`
-        @keyframes flowingGradient {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
-        .animate-flowingGradient {
-            animation: flowingGradient 3s linear infinite;
-        }
-    `}</style>
-</div>
-
+                        <style jsx>{`
+                            @keyframes flowingGradient {
+                                0% { background-position: 0% 50%; }
+                                50% { background-position: 100% 50%; }
+                                100% { background-position: 0% 50%; }
+                            }
+                            .animate-flowingGradient {
+                                animation: flowingGradient 3s linear infinite;
+                            }
+                        `}</style>
+                    </div>
 
                     <Slider {...settings}>
                         {postData.map((items, i) => (
                             <div key={i} className="relative">
-                                <div className='bg-white test-sha m-3 p-10 my-20 rounded-3xl'>
+                                <div className='bg-white test-sha m-3 p-10 my-20 rounded-3xl h-[350px]'>
                                     <Image src={items.imgSrc} alt={items.imgSrc} width={71} height={71} className="inline-block m-auto absolute test-pos" />
                                     <h4 className='text-base font-medium text-testColor my-4'>{items.comment}</h4>
                                     <hr style={{ color: "lightgrey" }} />
@@ -171,7 +165,6 @@ export default class MultipleItems extends Component {
                     </Slider>
                 </div>
             </div>
-
         );
     }
 }

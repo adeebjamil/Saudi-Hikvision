@@ -22,6 +22,7 @@ const Dedicated = () => {
               width={416}
               height={530}
               className="mx-auto md:mx-0"
+             
             />
           </div>
 
@@ -41,7 +42,7 @@ const Dedicated = () => {
              bg-[length:200%_auto]
              animate-flowingGradient
              hover:scale-105 transition-transform duration-300
-             cursor-pointer"
+             cursor-pointer p-2"  
             >
               Transforming <br /> your vision into <br /> digital excellence.
             </h2>
@@ -64,14 +65,9 @@ const Dedicated = () => {
               }
             `}</style>
             <p className="font-medium text-lightblack text-2xl mt-5 text-center lg:text-start">
-              In today's digital age, the importance of a reliable, efficient,
-              and user-friendly website cannot be overstated. At Digitallink,
-              we've been proud to embark on our digital journey. Our aim has
-              always been to provide our visitors with not just information, but
-              an experience. An experience that is seamless, intuitive, and
-              reflective of the quality we stand for.
+            In today's digital world, having a reliable, efficient, and user-friendly website is essential. At Hikvision-Saudi, we are proud to have embarked on our digital journey, aiming to offer visitors more than just information. We strive to provide an experience that is seamless, intuitive, and reflects the high-quality security solutions we offer.
             </p>
-            <p className="text-2xl font-semibold mt-12 lg:ml-32  text-center lg:text-start">
+            <p className="text-2xl font-semibold mt-12 text-center lg:text-start">
               {" "}
               Abdul Gafoor, CEO & FOUNDER
             </p>
