@@ -65,7 +65,7 @@ const Dedicated = () => {
               }
             `}</style>
             <p className="font-medium text-lightblack text-2xl mt-5 text-center lg:text-start">
-            In today's digital world, having a reliable, efficient, and user-friendly website is essential. At Hikvision-Saudi, we are proud to have embarked on our digital journey, aiming to offer visitors more than just information. We strive to provide an experience that is seamless, intuitive, and reflects the high-quality security solutions we offer.
+            In today&apos;s digital world, having a reliable, efficient, and user-friendly website is essential. At Hikvision-Saudi, we are proud to have embarked on our digital journey, aiming to offer visitors more than just information. We strive to provide an experience that is seamless, intuitive, and reflects the high-quality security solutions we offer.
             </p>
             <p className="text-2xl font-semibold mt-12 text-center lg:text-start">
               {" "}

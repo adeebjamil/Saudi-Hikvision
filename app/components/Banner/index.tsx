@@ -23,7 +23,7 @@ const Banner = () => {
       setCurrentIndex((prev) => (prev + 1) % images.length);
     }, 3000);
     return () => clearInterval(timer);
-  }, []);
+  }, [images.length]); // Add images.length as a dependency
 
   return (
     <div className="mx-auto max-w-7xl my-10 sm:py-10 px-6 lg:px-8">

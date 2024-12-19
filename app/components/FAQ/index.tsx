@@ -133,7 +133,7 @@ const FAQ = () => {
                   />
                 </Disclosure.Button>
                 <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-black font-normal opacity-50">
-                  Hikvision-Saudi serves a wide range of industries, including retail, commercial, industrial, and residential sectors. Our solutions are designed to meet the specific security demands of each industry, whether it's advanced surveillance for businesses or enhanced safety measures for homes, ensuring comprehensive protection across all environments.
+                  Hikvision-Saudi serves a wide range of industries, including retail, commercial, industrial, and residential sectors. Our solutions are designed to meet the specific security demands of each industry, whether it&apos;s advanced surveillance for businesses or enhanced safety measures for homes, ensuring comprehensive protection across all environments.
                 </Disclosure.Panel>
               </>
             )}
