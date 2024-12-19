@@ -6,12 +6,14 @@ const Banner = () => {
   const images = [
     "/images/banner/banner.png",
     "/images/banner/banner2.png",
-    "/images/banner/banner3.png",
+    // "/images/banner/banner3.png",
     "/images/banner/banner4.png",
     "/images/banner/banner5.png",
-    // "/images/banner/banner2.png",
-    // "/images/banner/banner2.png",
-    // "/images/banner/banner2.png",
+    "/images/banner/banner6.png",
+    "/images/banner/banner7.png",
+    "/images/banner/banner8.png",
+    "/images/banner/banner9.png",
+    // "/images/banner/banner10.png",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

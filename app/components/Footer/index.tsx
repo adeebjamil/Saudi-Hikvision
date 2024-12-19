@@ -34,9 +34,9 @@ const footer = () => {
             <p className="text-white text-lg font-bold mb-4">Menu</p>
             <ul className="space-y-3">
               <li><Link href="/" className="text-white/70 text-base hover:text-white hover:translate-x-1 transition-all duration-300 inline-block">Home</Link></li>
-              <li><Link href="/" className="text-white/70 text-base hover:text-white hover:translate-x-1 transition-all duration-300 inline-block">About</Link></li>
-              <li><Link href="/" className="text-white/70 text-base hover:text-white hover:translate-x-1 transition-all duration-300 inline-block">Services</Link></li>
-              <li><Link href="/" className="text-white/70 text-base hover:text-white hover:translate-x-1 transition-all duration-300 inline-block">Contact</Link></li>
+              <li><Link href="/#aboutus-section" className="text-white/70 text-base hover:text-white hover:translate-x-1 transition-all duration-300 inline-block">About</Link></li>
+              <li><Link href="/#services-section" className="text-white/70 text-base hover:text-white hover:translate-x-1 transition-all duration-300 inline-block">Services</Link></li>
+              
             </ul>
           </div>
 
@@ -44,8 +44,8 @@ const footer = () => {
           <div className="group relative col-span-3">
             <p className="text-white text-lg font-bold mb-4">Support</p>
             <ul className="space-y-3">
-              <li><Link href="/" className="text-white/70 text-base hover:text-white hover:translate-x-1 transition-all duration-300 inline-block">FAQ</Link></li>
-              <li><Link href="/" className="text-white/70 text-base hover:text-white hover:translate-x-1 transition-all duration-300 inline-block">Contact Us</Link></li>
+              <li><Link href="/#faq-section" className="text-white/70 text-base hover:text-white hover:translate-x-1 transition-all duration-300 inline-block">FAQ</Link></li>
+             
             </ul>
           </div>
         </div>
@@ -56,9 +56,9 @@ const footer = () => {
         <div className="py-4 px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-white/70 text-sm">
-              @2024 - All Rights Reserved by
-              <Link href="https://adminmart.com/" target="_blank" className="text-white hover:text-white/90 ml-1">
-                Adminmart.com
+              @2024 - All Rights Reserved by Hikvision Saudi
+              <Link href="https://hikvision-uae.ae" target="_blank" className="text-white hover:text-white/90 ml-1">
+                Hikvision
               </Link>
             </p>
             <div className="flex items-center space-x-6">

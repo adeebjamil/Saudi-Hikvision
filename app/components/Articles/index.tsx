@@ -16,35 +16,35 @@ interface DataType {
 }
 
 const postData = [
-    {
-      time: "5 min",
-      heading: "Security Solutions by Hikvision UAE",
-      heading2: "Latest Technology",
-      name: "By Digitechtalk",
-      date: "NOV 12 2023",
-      imgSrc: "/images/articles/article.png",
-      blogUrl: "https://digitechtalk.com/2024/11/12/security-solutions-by-hikvision-uae/"
-    },
-    {
-      time: "10 min",
-      heading: "Another Blog Post",
-      heading2: "Second Post",
-      name: "By Digitechtalk",
-      date: "NOV 13 2023",
-      imgSrc: "/images/articles/article2.png",
-      blogUrl: "https://digitechtalk.com/2024/11/13/gitex-2024/"
-    },
-    {
-      time: "7 min",
-      heading: "Third Blog Post",
-      heading2: "Third Post",
-      name: "By Digitechtalk",
-      date: "NOV 14 2023",
-      imgSrc: "/images/articles/article3.png",
-      blogUrl: "https://digitechtalk.com/2024/11/14/third-blog-post/"
-    }
-  ];
-
+  {
+    time: "5 min",
+    heading: "Security Solutions by Hikvision UAE",
+    heading2: "Latest Technology",
+    name: "By Digitechtalk",
+    date: "NOV 12 2023",
+    imgSrc: "/images/updated/Hikvision-1.jpg",
+    blogUrl:
+      "https://digitechtalk.com/2024/11/12/security-solutions-by-hikvision-uae/",
+  },
+  {
+    time: "10 min",
+    heading: "Another Blog Post",
+    heading2: "Second Post",
+    name: "By Digitechtalk",
+    date: "NOV 13 2023",
+    imgSrc: "/images/updated/Hikvision-2.jpg",
+    blogUrl: "https://digitechtalk.com/2024/11/13/gitex-2024/",
+  },
+  {
+    time: "7 min",
+    heading: "Third Blog Post",
+    heading2: "Third Post",
+    name: "By Digitechtalk",
+    date: "NOV 14 2023",
+    imgSrc: "/images/articles/article3.png",
+    blogUrl: "https://digitechtalk.com/2024/11/14/third-blog-post/",
+  },
+];
 
 // CAROUSEL SETTINGS
 
@@ -134,18 +134,18 @@ export default class MultipleItems extends Component {
                     alt="gaby"
                     width={389}
                     height={262}
-                    className="inline-block m-auto"
+                    className="inline-block m-auto rounded-2xl"
                   />
 
-<Link
-  href={items.blogUrl || "#"}
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <h3 className="absolute bg-blue text-white hover:bg-black hover:shadow-xl py-3 px-6 rounded-full article-img">
-    {items.time} read
-  </h3>
-</Link>
+                  <Link
+                    href={items.blogUrl || "#"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <h3 className="absolute bg-blue text-white hover:bg-black hover:shadow-xl py-3 px-6 rounded-full article-img">
+                      {items.time} read
+                    </h3>
+                  </Link>
 
                   <h4 className="text-2xl font-bold pt-6 text-black">
                     {items.heading}
